@@ -1,0 +1,30 @@
+create project database 
+               Name of database = "sbidatabase"
+               Number of tables = "5"
+                                  1. employee
+                                  2. accountdetails
+                                  3. transaction
+                                  4. admin
+
+
+database create commands:
+                        create user sbidatabase identified by sbidatabase;
+                        grant dba to sbidatabase;
+                        connect sbidatabase/sbidatabase;
+
+create tables in sbidatabase:
+                            1: create table employee(username varchar(20) NOT NULL,password varchar(20) NOT NULL,email varchar(50) NOT NULL,contact number NOT NULL);
+
+                            2: create table accountdetails(accountnumber number NOT NULL,name varchar(30) NOT NULL,fathername varchar(30) NOT NULL,aadhar number NOT NULL,birthday varchar(20) NOT NULL,gender varchar(10) NOT NULL,email varchar(50) not null,contact number not null,amount real not null,accounttype varchar(20) not null,address varchar(100) not null,accountdate date not null);
+ 
+                            3: create table admin(username varchar(20) NOT NULL,password varchar(20) NOT NULL,contact number NOT NULL);
+
+                            4: create table transaction(accountnumber varchar(11) not null,transactionid varchar(11) not null,creditamount varchar(50),debitamount varchar(50),creditfrom varchar(11),debitfrom varchar(11),transferto varchar(11),transactiondate varchar(30));
+
+
+
+
+
+
+
+

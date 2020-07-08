@@ -1,0 +1,229 @@
+<web-app>
+         <servlet>
+           <servlet-name>First</servlet-name>
+           <servlet-class>SignupServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>First</servlet-name>
+           <url-pattern>signup</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Second</servlet-name>
+           <servlet-class>LoginServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Second</servlet-name>
+           <url-pattern>login</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Third</servlet-name>
+           <servlet-class>ForgotServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Third</servlet-name>
+           <url-pattern>forgot</url-pattern>
+         </servlet-mapping>
+
+        <servlet>
+           <servlet-name>Four</servlet-name>
+           <servlet-class>LogoutServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Four</servlet-name>
+           <url-pattern>logout</url-pattern>
+         </servlet-mapping>
+ 
+         <servlet>
+           <servlet-name>Five</servlet-name>
+           <servlet-class>CreateAccountServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Five</servlet-name>
+           <url-pattern>createaccount</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>six</servlet-name>
+           <servlet-class>ChangePasswordServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>six</servlet-name>
+           <url-pattern>changepassword</url-pattern>
+         </servlet-mapping> 
+
+         <servlet>
+           <servlet-name>seven</servlet-name>
+           <servlet-class>CheckBalanceServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>seven</servlet-name>
+           <url-pattern>checkbalance</url-pattern>
+         </servlet-mapping> 
+
+         <servlet>
+           <servlet-name>eight</servlet-name>
+           <servlet-class>ProfileServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>eight</servlet-name>
+           <url-pattern>profile</url-pattern>
+         </servlet-mapping> 
+
+         <servlet>
+           <servlet-name>nine</servlet-name>
+           <servlet-class>AdminChangePasswordServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>nine</servlet-name>
+           <url-pattern>adminchangepassword</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>ten</servlet-name>
+           <servlet-class>AdminCreateAccountServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>ten</servlet-name>
+           <url-pattern>admincreateaccount</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Eleven</servlet-name>
+           <servlet-class>AccountDeleteServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Eleven</servlet-name>
+           <url-pattern>deleteaccount</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Twelve</servlet-name>
+           <servlet-class>AccountDetailsServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Twelve</servlet-name>
+           <url-pattern>accountdetails</url-pattern>
+         </servlet-mapping>
+         
+        <servlet>
+           <servlet-name>Thirteen</servlet-name>
+           <servlet-class>AccountBalanceServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Thirteen</servlet-name>
+           <url-pattern>accountbalance</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Fourteen</servlet-name>
+           <servlet-class>AccountsListServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Fourteen</servlet-name>
+           <url-pattern>bankuser</url-pattern>
+         </servlet-mapping>
+
+
+         <servlet>
+           <servlet-name>Fifteen</servlet-name>
+           <servlet-class>DebitServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Fifteen</servlet-name>
+           <url-pattern>debit</url-pattern>
+         </servlet-mapping>
+
+        <servlet>
+           <servlet-name>Sixteen</servlet-name>
+           <servlet-class>CreditServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Sixteen</servlet-name>
+           <url-pattern>credit</url-pattern>
+         </servlet-mapping>
+
+
+         <servlet>
+           <servlet-name>Seventeen</servlet-name>
+           <servlet-class>AdminAccountStatementServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Seventeen</servlet-name>
+           <url-pattern>accountstatement</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Eighteen</servlet-name>
+           <servlet-class>TransferServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Eighteen</servlet-name>
+           <url-pattern>transfer</url-pattern>
+         </servlet-mapping>
+         
+         <servlet>
+           <servlet-name>Sample19</servlet-name>
+           <servlet-class>Transfer1Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Sample19</servlet-name>
+           <url-pattern>transfer2</url-pattern>
+         </servlet-mapping>
+ 
+         <servlet>
+           <servlet-name>Sample20</servlet-name>
+           <servlet-class>VerifyServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Sample20</servlet-name>
+           <url-pattern>verify</url-pattern>
+         </servlet-mapping>
+
+
+         <servlet>
+           <servlet-name>Ninteen</servlet-name>
+           <servlet-class>Transfer2Servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Ninteen</servlet-name>
+           <url-pattern>transfer3</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Twenty</servlet-name>
+           <servlet-class>StatementServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Twenty</servlet-name>
+           <url-pattern>statement</url-pattern>
+         </servlet-mapping>
+
+         <servlet>
+           <servlet-name>Twenty1</servlet-name>
+           <servlet-class>AccountStatementServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Twenty1</servlet-name>
+           <url-pattern>statement2</url-pattern>
+         </servlet-mapping>    
+
+
+        <servlet>
+           <servlet-name>Sample21</servlet-name>
+           <servlet-class>UnLockServlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+           <servlet-name>Sample21</servlet-name>
+           <url-pattern>unlock</url-pattern>
+         </servlet-mapping>
+
+
+
+<welcome-file-list>
+  <welcome-file>home.html</welcome-file>
+</welcome-file-list>
+</web-app>
+
+

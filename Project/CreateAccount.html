@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>State Bank Of India</title>
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+</head>
+<body>
+<br><hr size="2"><br>
+<main>
+	<div>
+               <h1>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\logo.png">&nbsp;State Bank Of India</h1>
+		<nav>
+			<ul>
+				<li><a href="logout">Log Out</a></li>
+				<li><a href="contact1.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+        <hr size="4" color="#6699ff">
+<br>
+<br>
+<header>
+<form action="createaccount" method="Post">
+<h2>Create Account</h2><br/>
+<center>
+<h4>Account Holder Name</h4>
+<input type="text" name="aname" class="un" required autofocus/><br/>
+<h4>Father's Name</h4>
+<input type="text" name="fname" class="un" required/><br/>
+<h4>Aadhar Number</h4>
+<input type="number" name="aadhar" class="con" required ><br/>
+<h4>D.O.B.</h><br>
+<input type="date" name="bday" class="con">
+<h4>Gender</h4>
+<input type="radio" name="gender" value="male" checked> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other<br/>
+<h4>Email ID</h4>
+<input type="email" name="email" class="mail" required/><br/>
+<h4>Contact Number</h4>
+<input type="number" name="number" class="con" required/><br/>
+<h4>Deposit Amount</h4>
+<input type="number" name="amount" class="con" min="1000" value="1000" required/><br/>
+<h4>Account Type</h4>
+<select name="atype" class="sl">
+<option>Saving Account</option>
+<option>Current Account</option>
+<option>Fixed Deposit Account</option>
+</select><br/>
+<h4>Address</h4>
+<textarea name="address" rows="3" cols="25" required ></textarea><br>
+
+<input type="submit" value="Create" class="button">
+</center>
+</form>
+</header>
+</main>
+</body>
+</html>
+

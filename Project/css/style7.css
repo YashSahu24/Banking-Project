@@ -1,0 +1,119 @@
+*
+{
+	
+	margin: 0 ;
+	padding: 0;
+	color:white;
+}
+body
+{
+            
+	background-image: url("../images/1.jpg");
+	background-size: cover;
+	
+}
+
+main
+{
+	width: 1530px;
+	height: 100px;
+	//background:linear-gradient(140deg,tomato,red);
+
+}
+img
+{
+	width: 50px;
+	height: 50px;
+}
+h1
+{	
+	width: 700px;
+	height: 50px;
+	float: left;
+	color:"white";
+	font-family: algerian;
+	//background-color: blue;
+	font-size:55px;
+}
+nav
+{
+	width: 500px;
+	height: 50px;
+	padding-left: 1000px;
+	padding-top: 30px;
+
+	
+}
+nav ul
+{
+	list-style-type: none;
+
+}
+nav ul li
+{
+	color: white;
+	background-color:#000066;
+	border: 2px solid #ff6666;
+        border-radius:10px;
+	width: 100px;
+	height: 35px;
+	text-align: center;
+	float: left;
+	line-height: 35px;
+	margin:5px; 
+	
+}
+nav ul a
+{
+	text-decoration: none;
+	color:white;
+}
+nav ul ul
+{
+	display: none;
+
+
+}
+nav ul li a
+{
+	display: block;
+}
+nav ul li a:hover
+{
+	background-color: #2b692b;
+}
+header
+{
+	width:500px;
+	height:300px;
+	margin-top:10px;
+	padding:30px;
+	background:rgba(20,25,20,0.7);
+	
+}
+
+header1
+{
+	width:700px;
+	height:500px;
+	margin-top:05px;
+	padding:20px;
+	background:rgba(20,25,20,0.7);
+	
+}
+
+
+
+.box{
+    background-color:#656565;
+    width:500px;
+    height:100%;
+    padding: 10px 30px 10px 0px;
+
+ }
+  p{
+     margin-left: 0.5in; /* WHY INCHES? CAN YOU DO EM OR PX? */
+     text-indent:-0.25in;
+    text-align:justify; 
+     box-sizing:border-box;
+ }
